@@ -1,0 +1,17 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+/* Definir fuentes localmente con @font-face */
+@font-face {
+    font-family: 'Restora';
+    src: url('../assets/fonts/Restora.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'RestoraBold';
+    src: url('../assets/fonts/RestoraBold.otf') format('opentype');
+}

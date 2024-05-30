@@ -1,0 +1,81 @@
+/* ************************************* LOGO ***************************************************** */
+.logo {
+    width: 120px;
+    display: flex;
+}
+
+.logoResponsive {
+    width: 120px;
+    display: none;
+}
+
+
+/* ************************************* PAGINA DE INICIO ***************************************************** */
+
+.gridContaineCenterAllr{
+    justify-content: center;
+    align-items: center
+}
+
+
+.h1banner{
+    font-size: 74px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #ffff;
+}
+
+
+/* ************************************* Responbsivo ***************************************************** */
+
+@media (max-width: 900px) {
+    .logo {
+      display: none; /* Ocultar el ícono en pantallas más pequeñas */
+    }
+
+    .logoResponsive {
+        display: flex; /* Mostrar el ícono en dispositivos extra pequeños (xs) */
+        margin-right: 35%; /* Añadir un margen derecho */
+    }
+}
+
+
+@media (max-width: 760px) {
+    .logoResponsive {
+        margin-right: 30%; /* Añadir un margen derecho */
+    }
+}
+
+
+@media (max-width: 610px) {
+    .logoResponsive {
+        margin-right: 20%; /* Añadir un margen derecho */
+    }
+}
+
+
+@media (max-width: 540px) {
+    .logoResponsive {
+        margin-right: 15%; /* Añadir un margen derecho */
+    }
+}
+
+@media (max-width: 510px) {
+    .logoResponsive {
+        margin-right: 10%; /* Añadir un margen derecho */
+    }
+}
+
+@media (max-width: 431px) {
+    .logoResponsive {
+        margin-right: 5%; /* Añadir un margen derecho */
+    }
+}
+
+@media (max-width: 400px) {
+    .logoResponsive {
+        display: none; /* Ocultar el ícono en pantallas más pequeñas */
+    }
+}
+.customFont {
+    font-family: 'Satisfy', cursive;
+}
